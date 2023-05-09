@@ -1,0 +1,63 @@
+.navbar-toggler {
+    display: none;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.biografia-bloco {
+    width: 50%;
+    text-align: justify;
+}
+
+.nav-item-opened {
+    color: black;
+    font-weight: 600;
+}
+
+.nav-link-opened {
+    background-color: rgba(255, 255, 255, 0.301);
+}
+
+.nav-link-opened:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.nav-item-opened:hover {
+    color: black;
+}
+
+.video-block {
+    width: 100%;
+    height: 600px;
+}
+
+@media (max-width: 995px){
+    .navbar-toggler {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    header {
+        background-position: center bottom;
+    }
+
+    .video-block {
+        height: 300px;
+    }
+
+    .biografia-bloco {
+        width: 80%;
+    }
+
+}
+
